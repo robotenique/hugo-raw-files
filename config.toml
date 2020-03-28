@@ -1,0 +1,83 @@
+## Basic Configuration
+baseurl = "https://example.com/"
+languageCode = "en"
+
+title = "Robotenique's Home"
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+# summarylength = 30
+
+#paginate = 5
+
+## Site Settings
+[params]
+    author = "Juliano Garcia"
+    title = "Title"
+    description = "COLOCAR ALGUMA COISA AQUIII"
+    authorimage = "/img/me.jpg"
+    dateformat = "Jan 2, 2006"
+
+    # sidebar, copyright & license
+    copyright = "htr3n"
+    since = 2019
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = false
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+    
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
+
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
+
+    # Reverse the layout
+    layoutreverse = true
+
+    # Theme Color
+    themecolor="theme-base-08"
+
+    # Sidebar content at the bottom
+    sidebarSticky = true
+
+## Social Accounts
+[params.social]
+    github = "robotenique"
+    #instagram = "<username>"
+    #xing = "<username>"
+    linkedin = "juliano-garcia-oliveira"
+    #twitter = "<username>"
+    #facebook = "<username>"
+    #stackoverflow = "<username>"
+    #telegram = "<username>"
+    # orcid = "<xxxx-xxxx-xxxx-xxxx>"
+    email = "julianogarcia_1997@hotmail.com"
+    #gravatar = "julianogarcia_1997@hotmail.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "Portfolio"
+    identifier = "portfolio"
+    weight = 200
+    url = "/portfolio/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"

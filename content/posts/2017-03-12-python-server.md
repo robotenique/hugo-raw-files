@@ -12,7 +12,8 @@ tags: ["python", "programming"]
 
 
 This is a very simple tip, but it's very useful when you want others to access your files, or you want to transfer files easily.
-Just open the terminal, navigate to the folder you want to serve, and then type
+Just open the terminal, navigate to the folder you want to serve, and then type:
+
 ~~~bash
 $ python -m SimpleHTTPServer
 ~~~

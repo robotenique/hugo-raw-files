@@ -2,7 +2,7 @@
 baseurl = "https://robotenique.github.io/"
 languageCode = "en"
 
-title = "Robotenique's Home"
+title = "Juliano Garcia"
 theme = "hyde-hyde"
 
 ## Hugo Built-in Features
@@ -18,16 +18,12 @@ theme = "hyde-hyde"
 [params]
     author = "Juliano Garcia"
     title = "Title"
-    description = "COLOCAR ALGUMA COISA AQUIII"
+    description = "Data & Computer Scientist. Digressions about statistics, technology or anything else that comes in my mind. Opinions are my own."
     authorimage = "/img/me.jpg"
     dateformat = "Jan 2, 2006"
 
     # sidebar, copyright & license
-    copyright = "htr3n"
-    since = 2019
-    license = "CC BY-SA 4.0"
-    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
-    showBuiltWith = false
+    showBuiltWith = true
 
     # https://highlightjs.org
     highlightjs = true
@@ -72,12 +68,12 @@ theme = "hyde-hyde"
     identifier = "posts"
     url = "/posts/"
 [[menu.main]]
-    name = "Portfolio"
+    name = "Projects"
     identifier = "portfolio"
     weight = 200
     url = "/portfolio/"
 [[menu.main]]
-    name = "About"
+    name = "About Me"
     identifier = "about"
     weight = 300
     url = "/about/"

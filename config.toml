@@ -17,7 +17,7 @@ theme = "hyde-hyde"
 ## Site Settings
 [params]
     author = "Juliano Garcia"
-    title = "Title"
+    title = "Robotenique's Home"
     description = "Data & Computer Scientist. Digressions about statistics, technology or anything else that comes in my mind. Opinions are my own."
     authorimage = "/img/me.jpg"
     dateformat = "Jan 2, 2006"

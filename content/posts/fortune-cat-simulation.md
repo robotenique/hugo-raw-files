@@ -1,6 +1,6 @@
 ---
-title:  "Monte Carlo simulation of a Gacha Game mechanic"
-linktitle:  "Monte Carlo simulation of a Gacha Game mechanic"
+title:  "Monte Carlo simulation of a multi-spin roulette mechanic"
+linktitle:  "Monte Carlo simulation of a multi-spin roulette mechanic"
 date:   2020-04-05
 categories: ["Statistics"]
 tags: ["data science"]

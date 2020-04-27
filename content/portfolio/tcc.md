@@ -1,6 +1,6 @@
 ---
 title: "A Study on Gradient Boosting Classifiers"
-description: "My thesis with an experimental analysis of LightGBM hyperparameters in classification models"
+description: "My undergraduate thesis with an experimental analysis of LightGBM hyperparameters in classification models"
 date: '2019-12-01'
 link: 'https://www.linux.ime.usp.br/~robotenique/mac0499/'
 screenshot: 'tcc.gif'

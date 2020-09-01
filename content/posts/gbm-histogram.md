@@ -103,7 +103,7 @@ The following figure illustrates this: starting with the *Parent* histogram and 
 ### References
 
 
-And that's it! By using an *approximate* solution the whole training process gradient boosting gets a huge *boost*👀  in performance. This approach is being adopted and added to a lot of different frameworks too, e.g. you can check the code for the subtraction trick [in this Cython code for Scikit-Learn](https://github.com/scikit-learn/scikit-learn/blob/ac8760d089b279abc70f12db247c59fdc4b0fcc0/sklearn/ensemble/_hist_gradient_boosting/histogram.pyx#L200), and they even have a similar approach in [`HistGradientBoostingClassifier` and `HistGradientBoostingRegressor`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html), inspired by LightGBM!
+And that's it! By using an *approximate* solution the whole training process gradient boosting gets a huge *boost*👀  in computational performance. This approach is being adopted and added to a lot of different frameworks too, e.g. you can check the code for the subtraction trick [in this Cython code for Scikit-Learn](https://github.com/scikit-learn/scikit-learn/blob/ac8760d089b279abc70f12db247c59fdc4b0fcc0/sklearn/ensemble/_hist_gradient_boosting/histogram.pyx#L200), and they even have a similar approach in [`HistGradientBoostingClassifier` and `HistGradientBoostingRegressor`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html), inspired by LightGBM!
 
 Finally, the following parameters can be used to alter the default behavior of the histograms in LightGBM (use it carefully):
 

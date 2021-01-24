@@ -54,3 +54,7 @@ $ ./deploy.sh <commit message>
 This will build the website into the `public` folder and commit it to its respective repo.
 
 Finally, you also have to commit the changes you did to this repo, where the raw hugo files are kept. Just manually run a git commit and git push.
+
+**OPTIONAL:**
+
+If you did any change to the theme itself, you also need to commit it to its respective repo!! Go inside the `themes/hyde-hyde`, check that the remote is correct, add the files and commit (you might need to checkout to master...).

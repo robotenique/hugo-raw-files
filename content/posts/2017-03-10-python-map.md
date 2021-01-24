@@ -2,7 +2,6 @@
 title:  "Python map"
 linktitle:  "Python map"
 date:   2017-01-12
-weight: 10
 categories: ["Python"]
 tags: ["python", "programming"]
 ---

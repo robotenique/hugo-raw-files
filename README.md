@@ -1,3 +1,5 @@
+
+
 # Personal Website - Hugo
 
 This is a repo for the raw files of my personal website [robotenique.github.io](https://robotenique.github.io), built using:
@@ -58,3 +60,14 @@ Finally, you also have to commit the changes you did to this repo, where the raw
 **OPTIONAL:**
 
 If you did any change to the theme itself, you also need to commit it to its respective repo!! Go inside the `themes/hyde-hyde`, check that the remote is correct, add the files and commit (you might need to checkout to master...).
+
+
+## TIPS
+
+- You can change the CSS by changing the `scss` files inside `themes/hyde-hyde/assets/scss/hyde-hyde`. You can manually change the definitions AND/OR define new variables to be used inside `themes/hyde-hyde/assets/scss/hyde-hyde/_variables.scss`. Don't forget to update it to its respective repo.
+
+- Portfolio images should be inside the portfolio folder, instead of the usual static folder.
+
+
+
+You may be wondering why I'm not just putting everything (except the final built website) in just a single repo (why maintain 3?). Well, it's legacy code and I'm not in the mood of changing it rn :`)

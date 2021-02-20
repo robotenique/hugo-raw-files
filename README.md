@@ -40,7 +40,7 @@ and opening it in a browser. Everything here should be ok as equal as the live w
 
 5. Manually clone the live website repo:
 
-You need to clone from here: [https://github.com/robotenique/robotenique.github.io](https://github.com/robotenique/robotenique.github.io), but **rename the folder to `public`**. This will be where we'll put the built website and commit live.
+You need to clone from here: [git@github.com:robotenique/robotenique.github.io.git](https://github.com/robotenique/robotenique.github.io), but **rename the folder to `public`**. This will be where we'll put the built website and commit live.
 
 
 Done!

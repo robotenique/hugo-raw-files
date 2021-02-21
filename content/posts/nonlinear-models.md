@@ -17,12 +17,17 @@ tags: ["data science", "python", "programming"]
 
 In statistics, we say that a regression is linear when it's linear in the parameters. Fitting linear models is an easy task, we can use the least squares method and obtain the optimal parameters for our model. In Python you can achieve this using a bunch of libraries like `scipy`, `scikit-learn`, `numpy`, `statsmodels`, etc. However, not all problems can be solved with pure linear models. There are a lot of useful nonlinear models that guarantee useful mathematical properties and are also highly interpretable. Since I tend to recurrently fit these models, t article will serve as a future reference for myself whenever I need to use them in the future, with easy to implement code (in Python).
 
+ {{< image
+    src="/img/nonlinear_title.png"
+    alt="Good" >}} 
+
 
 Now, before we get into the models, it's important to note the context about **why** and **when** would you use these types of models. They're not necessarily a substitute for your complex (XGBoost, LightGBM, Random Forest, Neural Network, etc.) machine learning model. It's best to think about these nonlinear models in the context of **curve fitting**, i.e. you want to model a phenomena using a curve that you can interpret later. So, here are some considerations as to why would you use them:
 
 - **Interpretability**: If you model an event using curves, your outcome is much more interpretable, since usually the mathematical equation has a meaning to each parameter. Important: this doesn't mean you lose the power of your complex machine learning model, as you can still use the machine learning model alongside the curve you're fitting (e.g. segment your data using the model, then fit interpretable curves on each segment). This will help not only the person that built the model in the future but also the business stakeholders. It's much easier to explain what your model is doing if the output is interpretable.
 
 - **Mathematical Properties**: Sometimes it's really important to guarantee some mathematical property on your model output. For example if you're modelling `age x height` of some insect it probably make sense that your height prediction should be monotonically increasing as age increases. Describing these phenomena using mathematical equations give you the power to apply this constraint in the modelling phase: You just fit a function that has this monotonic property.
+
 
 ### Linear x Nonlinear
 

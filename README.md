@@ -19,7 +19,7 @@ This repo actually contains the main website code + two git submodules. To corre
 $ git submodule update --init
 ```
 
-Make sure that there are files inside the folder `theme/hyde-hyde`. This folder points out to this repo: [https://github.com/robotenique/hugo-theme](https://github.com/robotenique/hugo-theme) that I had to create based on the official hyde-hyde repo because I wanted to change some stuff there. (So if this doesn't work, you can always manually clone it).
+Make sure that there are files inside the folder `themes/hyde-hyde`. This folder points out to this repo: [https://github.com/robotenique/hugo-theme](https://github.com/robotenique/hugo-theme) that I had to create based on the official hyde-hyde repo because I wanted to change some stuff there. (So if this doesn't work, you can always manually clone it).
 
 The `public` folder might not be crated right now. This is ok, we'll create it later.
 
@@ -40,7 +40,7 @@ and opening it in a browser. Everything here should be ok as equal as the live w
 
 5. Manually clone the live website repo:
 
-You need to clone from here: [git@github.com:robotenique/robotenique.github.io.git](https://github.com/robotenique/robotenique.github.io), but **rename the folder to `public`**. This will be where we'll put the built website and commit live.
+You need to clone from here: [git@github.com:robotenique/robotenique.github.io.git](https://github.com/robotenique/robotenique.github.io), but **rename the folder to `public`** (`mv robotenique.github.io public`). This will be where we'll put the built website and commit live.
 
 
 Done!

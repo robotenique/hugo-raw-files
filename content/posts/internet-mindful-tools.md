@@ -13,6 +13,7 @@ tags: [ "programming"]
 
 
 ## Intro
+
 This quick blogpost wil be mostly a categorization for myself about some general tools I use to make social media and internet browsing more useful and a generally better experience (for me at least). I've been programming for more than 12 years (at the time of this blogpost), and working within the technology industry for more than 5 years. I've seen a lot of tools and I've tried a lot of them, but these are the ones that I've been using for a while and that I think are worth mentioning.
 
 Just a caveat: I'm not affiliated with any of these tools, I'm just a user that found them useful. I'm also not a "productivity coach" or anything like that, so I don't go on a constant search for new tools. I just use what I find useful and that's it.
@@ -36,6 +37,8 @@ I'm not naive enough to believe that using a certain toolbox will make us immune
 In the beginning of my student years I tried to maximize the content I consumed - I followed a considerable number of newsletters, podcasts, followed a lot of people (from my area but also a lot of other stuff) on social media, engaged in a lot of forums, etc. For a time this can be useful, especially to getting to know core concepts, understanding different ideas, i.e. it's very good for exploring the whole "knowledge space" of a certain area/interest.
 
 However, as I got into more specific areas of interest, I felt the need to really trim down the content I was consuming. I started to unfollow people, unsubscribe from newsletters, etc. I started to think about the signal-to-noise ratio of the content I was consuming. I want to maximize the signal (the useful content) and minimize the noise (the content that doesn't add value to me).
+
+> caveat here: I don't mean to maximize the signal in the purely utilitarian sense of consuming content useful for my work—quite the opposite. Art, music, and other forms are also part of the signal. I want to maximize the signal in a more holistic sense: what I find valuable, what has high quality, or what adds value to my life in some way.
 
 From time to time I do a "content curation session" - I go through my social media, newsletters, etc, and see if the content is still useful to me. If it's not, I unsubscribe, unfollow, etc. This generally works by:
 
